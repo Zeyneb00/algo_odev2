@@ -1,0 +1,16 @@
+dataset,scaling,k,cluster_sizes,smallest_cluster,largest_cluster_share,rand_index_vs_none
+Raisin_Dataset,none,2,899 1,1,0.999,1.0000
+Raisin_Dataset,minmax,2,899 1,1,0.999,0.9956
+Raisin_Dataset,zscore,2,899 1,1,0.999,0.9956
+Wholesale_customers_data,none,2,439 1,1,0.998,1.0000
+Wholesale_customers_data,minmax,2,439 1,1,0.998,1.0000
+Wholesale_customers_data,zscore,2,439 1,1,0.998,1.0000
+dataset_Facebook,none,3,497 2 1,1,0.994,1.0000
+dataset_Facebook,minmax,3,498 1 1,1,0.996,0.9881
+dataset_Facebook,zscore,3,498 1 1,1,0.996,0.9881
+iris,none,3,99 50 1,1,0.660,1.0000
+iris,minmax,3,99 50 1,1,0.660,0.9825
+iris,zscore,3,99 50 1,1,0.660,0.9825
+seeds_dataset,none,3,208 1 1,1,0.990,1.0000
+seeds_dataset,minmax,3,208 1 1,1,0.990,1.0000
+seeds_dataset,zscore,3,208 1 1,1,0.990,1.0000

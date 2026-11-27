@@ -1,0 +1,14 @@
+file,group,col_x,col_y
+Aggregation.csv,A,x,y
+Compound.csv,A,x,y
+R15.csv,A,x,y
+flame.csv,A,x,y
+jain.csv,A,x,y
+pathbased.csv,A,x,y
+skewed.csv,A,x,y
+spiral.csv,A,x,y
+Raisin_Dataset.csv,B,Area,Perimeter
+Wholesale_customers_data.csv,B,Milk,Grocery
+dataset_Facebook.csv,B,Lifetime Post Total Reach,Lifetime Engaged Users
+iris.csv,B,petal length in cm,petal width in cm
+seeds_dataset.csv,B,col_3,col_4

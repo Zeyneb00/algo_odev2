@@ -1,0 +1,40 @@
+dataset,metric,scaling,k,cluster_sizes,smallest_cluster,largest_cluster_share,rand_index_vs_euclidean
+Aggregation,euclidean,none,7,307 232 167 45 34 2 1,1,0.390,1.0000
+Aggregation,manhattan,none,7,307 232 167 45 34 2 1,1,0.390,0.9989
+Aggregation,chebyshev,none,7,307 232 167 45 34 2 1,1,0.390,1.0000
+Compound,euclidean,none,6,174 139 83 1 1 1,1,0.436,1.0000
+Compound,manhattan,none,6,257 134 4 2 1 1,1,0.644,0.8063
+Compound,chebyshev,none,6,174 136 83 4 1 1,1,0.436,0.9881
+R15,euclidean,none,15,199 42 40 40 40 40 40 39 39 38 37 3 1 1 1,1,0.332,1.0000
+R15,manhattan,none,15,199 40 40 40 40 40 40 40 39 39 39 1 1 1 1,1,0.332,0.9983
+R15,chebyshev,none,15,120 80 42 40 40 40 40 40 39 39 39 38 1 1 1,1,0.200,0.9460
+flame,euclidean,none,2,238 2,2,0.992,1.0000
+flame,manhattan,none,2,238 2,2,0.992,1.0000
+flame,chebyshev,none,2,238 2,2,0.992,1.0000
+jain,euclidean,none,2,347 26,26,0.930,1.0000
+jain,manhattan,none,2,372 1,1,0.997,0.8653
+jain,chebyshev,none,2,371 2,2,0.995,0.8793
+pathbased,euclidean,none,3,298 1 1,1,0.993,1.0000
+pathbased,manhattan,none,3,298 1 1,1,0.993,1.0000
+pathbased,chebyshev,none,3,298 1 1,1,0.993,0.9868
+skewed,euclidean,none,6,497 180 164 156 2 1,1,0.497,1.0000
+skewed,manhattan,none,6,499 180 163 156 1 1,1,0.499,0.9977
+skewed,chebyshev,none,6,497 180 164 156 2 1,1,0.497,1.0000
+spiral,euclidean,none,3,106 105 101,101,0.340,1.0000
+spiral,manhattan,none,3,106 105 101,101,0.340,1.0000
+spiral,chebyshev,none,3,106 105 101,101,0.340,1.0000
+Raisin_Dataset,euclidean,zscore,2,899 1,1,0.999,1.0000
+Raisin_Dataset,manhattan,zscore,2,899 1,1,0.999,1.0000
+Raisin_Dataset,chebyshev,zscore,2,899 1,1,0.999,1.0000
+Wholesale_customers_data,euclidean,zscore,2,439 1,1,0.998,1.0000
+Wholesale_customers_data,manhattan,zscore,2,439 1,1,0.998,0.9909
+Wholesale_customers_data,chebyshev,zscore,2,439 1,1,0.998,1.0000
+dataset_Facebook,euclidean,zscore,3,498 1 1,1,0.996,1.0000
+dataset_Facebook,manhattan,zscore,3,498 1 1,1,0.996,1.0000
+dataset_Facebook,chebyshev,zscore,3,498 1 1,1,0.996,1.0000
+iris,euclidean,zscore,3,99 50 1,1,0.660,1.0000
+iris,manhattan,zscore,3,99 50 1,1,0.660,1.0000
+iris,chebyshev,zscore,3,99 50 1,1,0.660,1.0000
+seeds_dataset,euclidean,zscore,3,208 1 1,1,0.990,1.0000
+seeds_dataset,manhattan,zscore,3,208 1 1,1,0.990,1.0000
+seeds_dataset,chebyshev,zscore,3,208 1 1,1,0.990,1.0000

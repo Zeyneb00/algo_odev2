@@ -1,0 +1,27 @@
+dataset,group,n,rows_skipped,x_feature,y_feature,algorithm,metric,scaling,k,cluster_sizes,smallest_cluster,edges_kept,runtime_ms,same_clusters_as_kruskal
+Aggregation,A,788,0,x,y,kruskal,euclidean,none,7,307 232 167 45 34 2 1,1,781,142.97,
+Aggregation,A,788,0,x,y,prim,euclidean,none,7,307 232 167 45 34 2 1,1,781,59.46,yes
+Compound,A,399,0,x,y,kruskal,euclidean,none,6,174 139 83 1 1 1,1,393,26.13,
+Compound,A,399,0,x,y,prim,euclidean,none,6,174 139 83 1 1 1,1,393,15.45,yes
+R15,A,600,0,x,y,kruskal,euclidean,none,15,199 42 40 40 40 40 40 39 39 38 37 3 1 1 1,1,585,74.98,
+R15,A,600,0,x,y,prim,euclidean,none,15,199 42 40 40 40 40 40 39 39 38 37 3 1 1 1,1,585,34.07,yes
+flame,A,240,0,x,y,kruskal,euclidean,none,2,238 2,2,238,8.82,
+flame,A,240,0,x,y,prim,euclidean,none,2,238 2,2,238,5.29,yes
+jain,A,373,0,x,y,kruskal,euclidean,none,2,347 26,26,371,22.15,
+jain,A,373,0,x,y,prim,euclidean,none,2,347 26,26,371,13.02,yes
+pathbased,A,300,0,x,y,kruskal,euclidean,none,3,298 1 1,1,297,13.86,
+pathbased,A,300,0,x,y,prim,euclidean,none,3,298 1 1,1,297,8.40,yes
+skewed,A,1000,0,x,y,kruskal,euclidean,none,6,497 180 164 156 2 1,1,994,315.41,
+skewed,A,1000,0,x,y,prim,euclidean,none,6,497 180 164 156 2 1,1,994,106.96,yes
+spiral,A,312,0,x,y,kruskal,euclidean,none,3,106 105 101,101,309,18.87,
+spiral,A,312,0,x,y,prim,euclidean,none,3,106 105 101,101,309,10.34,yes
+Raisin_Dataset,B,900,0,Area,Perimeter,kruskal,euclidean,zscore,2,899 1,1,898,289.25,
+Raisin_Dataset,B,900,0,Area,Perimeter,prim,euclidean,zscore,2,899 1,1,898,82.83,yes
+Wholesale_customers_data,B,440,0,Milk,Grocery,kruskal,euclidean,zscore,2,439 1,1,438,56.02,
+Wholesale_customers_data,B,440,0,Milk,Grocery,prim,euclidean,zscore,2,439 1,1,438,19.25,yes
+dataset_Facebook,B,500,0,Lifetime Post Total Reach,Lifetime Engaged Users,kruskal,euclidean,zscore,3,498 1 1,1,497,62.88,
+dataset_Facebook,B,500,0,Lifetime Post Total Reach,Lifetime Engaged Users,prim,euclidean,zscore,3,498 1 1,1,497,25.29,yes
+iris,B,150,0,petal length in cm,petal width in cm,kruskal,euclidean,zscore,3,99 50 1,1,147,4.03,
+iris,B,150,0,petal length in cm,petal width in cm,prim,euclidean,zscore,3,99 50 1,1,147,2.23,yes
+seeds_dataset,B,210,0,col_3,col_4,kruskal,euclidean,zscore,3,208 1 1,1,207,7.02,
+seeds_dataset,B,210,0,col_3,col_4,prim,euclidean,zscore,3,208 1 1,1,207,4.38,yes
